@@ -1,3 +1,7 @@
+.vscode
+libbson*
+build
+
 # Prerequisites
 *.d
 

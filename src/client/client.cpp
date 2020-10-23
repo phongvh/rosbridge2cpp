@@ -33,7 +33,7 @@ int main()
 
   ROSBridge ros(t);
   ros.enable_bson_mode();
-  if( !ros.Init("127.0.0.1", 9090))
+  if( !ros.Init("52.38.8.143", 9090))
   {
     std::cerr << "Failed to connect to ROSBridge" << std::endl;
     return 0;

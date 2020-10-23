@@ -25,7 +25,7 @@ set(PROJECT_NAME rosbridge2cpp)
 project(${PROJECT_NAME})
 
 if(NOT WIN32)
-	set(CMAKE_CXX_FLAGS "-g -Wall")
+	set(CMAKE_CXX_FLAGS "-g -Wall -pthread")
 endif()
 
 set(CXX_STANDARD C++11)
